@@ -13,6 +13,7 @@ app.get('/api/get_users', (req, res) => {
     ];
     const role=[
         { id: 1, name: "shubhi", age: 22, contact: 12345678, address: "bhopal", role: "Backend Developer" },
+        { id: 1, name: "soham", age: 22, contact: 12345678, address: "bhopal", role: "Backend Developer" },
     ]
     
     res.send({users, role,});
